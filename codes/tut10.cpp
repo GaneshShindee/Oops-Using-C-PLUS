@@ -11,6 +11,8 @@ int main(){
     //do while loop
 
 
+
+
     //*********for loop *****************
 
     //print till 6 
