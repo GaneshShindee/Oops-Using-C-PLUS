@@ -19,6 +19,7 @@ int main(){
 //     }
 //     return 0;
 
+
      switch (age)
      {
      case 6:
