@@ -8,6 +8,8 @@ int main(){
     cout<<"tell me your age:";
     cin>>age;
 
+
+
 //     if (age <18){
 //         cout<<"you cannot come to party"<<endl;
 //         }
