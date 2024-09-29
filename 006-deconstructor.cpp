@@ -30,11 +30,12 @@ public:
     }
 
 };
+
                
 int main(){
     student a1("ganesh",2.3);
     a1.getInfo();
-    
+
     
 
     
