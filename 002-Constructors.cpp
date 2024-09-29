@@ -21,6 +21,18 @@ public:
         subject=sub;
         salary=sal;
     }
+
+    //copy constructor
+    Teacher(Teacher &orgobj){//pass by referance 
+        cout<< "I am custom copy constructor" <<endl;
+        
+        this->name=orgobj.name;
+        this->dept=orgobj.dept;
+        this->subject=orgobj.subject;
+
+    }
+
+
     
 
     void getInfo(){
@@ -31,19 +43,6 @@ public:
         
     }
 
-    void changeDept(string dept){
-        this->dept=dept;
-    }
-
-    //set the value for the private data type of salaray
-    void setSalary(int s){
-        salary =s;
-    }
-
-    //get the value of the salary
-    double getSalary(){
-        return salary;
-    }
 };
                
 int main(){

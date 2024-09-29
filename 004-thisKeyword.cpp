@@ -15,7 +15,7 @@ public:
     Teacher(string name,string dept,string subject,double sal){
         this->name=name;
         this->dept=dept;
-        *(this).subject=subject;//address of the subject address
+        this->subject=subject;//address of the subject address
         salary=sal;
     }
 
